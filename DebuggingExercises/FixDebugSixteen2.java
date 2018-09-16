@@ -7,19 +7,19 @@ import java.awt.*;
 import java.awt.Color;
 import java.awt.event.*;
 
-public class DebugSixteen2 extends JPanel implements MouseListener
+public class FixDebugSixteen2 extends JPanel implements MouseListener
 {
    int x, y;
    int size;
 
-   public DebugSixteen2()
+   public FixDebugSixteen2()
    {
       addMouseListener(this);
    }
    public static void main(String[] args)
    {
      JFrame frame = new JFrame();
-     frame.add(new DebugSixteen2());
+     frame.add(new FixDebugSixteen2());
      frame.setSize(250, 150);
      frame.setVisible(true);
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

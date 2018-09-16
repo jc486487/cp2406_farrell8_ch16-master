@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Color;
 import java.awt.event.*;
-public class DebugSixteen4 extends JPanel implements ActionListener
+public class FixDebugSixteen4 extends JPanel implements ActionListener
 {
    JLabel header = new JLabel("Outfit planner");
    JButton changeButton = new JButton("Change clothes");
@@ -18,7 +18,7 @@ public class DebugSixteen4 extends JPanel implements ActionListener
    int y = 80;
    final int GAP = 20;
    int cycle = 0;
-   public DebugSixteen4()
+   public FixDebugSixteen4()
    {
       setBackground(Color.WHITE);
       add(header);
@@ -49,7 +49,7 @@ public class DebugSixteen4 extends JPanel implements ActionListener
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      frame.add(new DebugSixteen4());
+      frame.add(new FixDebugSixteen4());
       frame.setSize(350, 240);
       frame.setVisible(true);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.Color;
 import java.awt.event.*;
 
-public class DebugSixteen3 extends JPanel implements ActionListener
+public class FixDebugSixteen3 extends JPanel implements ActionListener
 {
    JLabel firstText = new JLabel("Our company is growing!");
    JLabel secText = new JLabel("What makes us better that most?");
@@ -19,7 +19,7 @@ public class DebugSixteen3 extends JPanel implements ActionListener
    int x = 30, y = 50;
    int counter = 0;
 
-   public DebugSixteen3()
+   public FixDebugSixteen3()
    {
      setBackground(Color.PINK);
      add(firstText);
@@ -49,7 +49,7 @@ public class DebugSixteen3 extends JPanel implements ActionListener
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      frame.add(new DebugSixteen3());
+      frame.add(new FixDebugSixteen3());
       frame.setSize(350, 250);
       frame.setVisible(true);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

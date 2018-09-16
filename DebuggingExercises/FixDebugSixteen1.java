@@ -3,11 +3,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Color;
 
-public class DebugSixteen1 extends JPanel
+public class FixDebugSixteen1 extends JPanel
 {
    String msg = "This is a bull's eye";
    int radius, corner;
-   public DebugSixteen1()
+   public FixDebugSixteen1()
    {
       setBackground(Color.WHITE);
    }
@@ -34,7 +34,7 @@ public class DebugSixteen1 extends JPanel
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      frame.add(new DebugSixteen1());
+      frame.add(new FixDebugSixteen1());
       frame.setSize(340, 340);
       frame.setVisible(true);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
